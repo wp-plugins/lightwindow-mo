@@ -1,7 +1,7 @@
 ﻿=== Plugin Name ===
 Contributors: mo1984
 Donate link: http://mo1984.com/
-Tags: lightwindow
+Tags: lightwindow,mo1984
 Requires at least: 2.0.2
 Tested up to: 2.1
 Stable tag: 1.0
@@ -37,6 +37,8 @@ usage:
 6.shortcode [vlw][/vlw]
 usage:
 [vlw v1="video url" t1="video name" v2="" t2="" v3="" t3="" v4="" t4="" v5="" t5="" w="" h=""] list name [/vlw]
+
+more information please see the readme in zip.
 
 == Frequently Asked Questions ==
 
