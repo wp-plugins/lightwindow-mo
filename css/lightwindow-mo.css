@@ -17,7 +17,7 @@
 	display: none;
 	visibility: hidden;
 	position: absolute;
-	z-index: 999;
+	z-index: 99999;
 	line-height: 0px;
 	/* REQUIRED */
 }
@@ -41,8 +41,9 @@
 		overflow: hidden;
 		z-index: 0;
 		position: relative;
-		border: 10px solid #ffffff;
+		border: 10px solid #666666;
 		background-color: #ffffff;
+
 	}		
 
 #lightwindow_loading {
@@ -336,7 +337,7 @@
 	
 #lightwindow_title_bar {
 	height: 25px;
-	overflow: hidden;		
+	overflow: hidden;
 }
 
 	#lightwindow_title_bar_title {
@@ -345,6 +346,7 @@
 		line-height: 25px;
 		text-align: left;
 		float: left;
+margin: 0;
 	}
 
 	a#lightwindow_title_bar_close_link,	
@@ -373,13 +375,9 @@
 	padding-right: 10px;
 }
 
-/* subhead(文章中的副标题样式) */
-#sh{box-shadow:2px 2px 5px #777;-moz-box-shadow:2px 2px 5px #777;-webkit-box-shadow:2px 2px 5px #777;background:#666666;right:50%;bottom:-14px;height:20px;overflow:hidden;border:1px solid #999;color:#E8E8E8;font-weight: bold;font-size:14px;margin:0 0 5px 0;padding:3px 0 3px 5px;}
-#moshow {color:#555;padding:5px 0 10px 10px;margin:-5px 0 10px;border:1px solid #ddd;background:#eee;box-shadow:2px 2px 5px #777;-moz-box-shadow:2px 2px 5px #777;-webkit-box-shadow:2px 2px 5px #777;bottom:-14px;overflow:hidden;border:1px solid #999;line-height:150%}
-#moshow a{color:#047;text-decoration:none;}
-#moshow a:hover{color:#4a630f;text-decoration:underline;}
-#vodlist{}
-#vodlist ul{overflow:hidden;margin-bottom:10px;position:relative;margin:0 auto;padding:0;}
-#vodlist li{float:left;width:96px;height:25px;border:1px solid #c6c6c6;padding:1px;margin:5px 3px 0 10px;overflow:hidden;}
-#vodlist li a:link,#vodlist li a:visited{display:block;height:25px;width:96px;text-align:center;line-height:25px;text-decoration:none}
-#vodlist li a:hover{background:#c6c6c6;color:#000000;}
+#qvodlist {float:left;width:100px;height:25px;border:1px solid #c6c6c6;padding:1px;margin:3px 3px 3px 10px;overflow:hidden;margin-bottom:10px;position:relative;}
+
+#qvodlist a:link,#vodlist li a:visited{display:block;height:25px;width:100px;text-align:center;line-height:25px;text-decoration:none}
+
+#qvodlist a:hover{background:#c6c6c6;color:#000000;}
+
